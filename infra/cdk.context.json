@@ -1,0 +1,44 @@
+{
+  "hosted-zone:account=270437818944:domainName=sandbox.youscience.com:privateZone=false:region=us-east-1": {
+    "Id": "/hostedzone/Z04325831GKBMU04ZA0LC",
+    "Name": "sandbox.youscience.com."
+  },
+  "hosted-zone:account=879729661938:domainName=dev.youscience.com:privateZone=false:region=us-east-1": {
+    "Id": "/hostedzone/Z02108593CI09WU3FMZ1B",
+    "Name": "dev.youscience.com."
+  },
+  "ssm:account=879729661938:parameterName=/apps/admin-ui/env/stage:region=us-east-1": "dev",
+  "ssm:account=879729661938:parameterName=/apps/shared/source/connectionArn:region=us-east-1": "arn:aws:codestar-connections:us-east-1:879729661938:connection/279ce0a9-27d8-4e10-b05b-1b0fafe64217",
+  "ssm:account=879729661938:parameterName=/apps/admin-ui/source/branchName:region=us-east-1": "develop",
+  "ssm:account=879729661938:parameterName=/apps/admin-ui/env/stagePrefix:region=us-east-1": "false",
+  "ssm:account=879729661938:parameterName=/apps/admin-ui/cloudfront/domainName:region=us-east-1": "admin.dev.youscience.com",
+  "ssm:account=879729661938:parameterName=/apps/admin-ui/route53/zoneId:region=us-east-1": "Z02108593CI09WU3FMZ1B",
+  "ssm:account=879729661938:parameterName=/apps/admin-ui/route53/domainName:region=us-east-1": "dev.youscience.com",
+  "ssm:account=879729661938:parameterName=/apps/admin-ui/certificate/domainName:region=us-east-1": "admin.dev.youscience.com",
+  "ssm:account=879729661938:parameterName=/apps/admin-ui/pipeline/notification:region=us-east-1": "true",
+  "ssm:account=879729661938:parameterName=/apps/shared/notification/chatbot/slackArn:region=us-east-1": "arn:aws:chatbot::879729661938:chat-configuration/slack-channel/build-notifications-channel",
+  "ssm:account=270437818944:parameterName=/apps/admin-ui/env/stage:region=us-east-1": "sandbox",
+  "ssm:account=270437818944:parameterName=/apps/shared/source/connectionArn:region=us-east-1": "arn:aws:codestar-connections:us-east-1:270437818944:connection/881354d0-5a3f-45f2-bfa3-2db6f8bf8289",
+  "ssm:account=270437818944:parameterName=/apps/admin-ui/source/branchName:region=us-east-1": "sandbox",
+  "ssm:account=270437818944:parameterName=/apps/admin-ui/env/stagePrefix:region=us-east-1": "false",
+  "ssm:account=270437818944:parameterName=/apps/admin-ui/cloudfront/domainName:region=us-east-1": "admin.sandbox.youscience.com",
+  "ssm:account=270437818944:parameterName=/apps/admin-ui/route53/zoneId:region=us-east-1": "Z04325831GKBMU04ZA0LC",
+  "ssm:account=270437818944:parameterName=/apps/admin-ui/route53/domainName:region=us-east-1": "sandbox.youscience.com",
+  "ssm:account=270437818944:parameterName=/apps/admin-ui/certificate/domainName:region=us-east-1": "admin.sandbox.youscience.com",
+  "ssm:account=270437818944:parameterName=/apps/admin-ui/pipeline/notification:region=us-east-1": "true",
+  "ssm:account=270437818944:parameterName=/apps/shared/notification/chatbot/slackArn:region=us-east-1": "arn:aws:chatbot::270437818944:chat-configuration/slack-channel/deploy-notifications",
+  "hosted-zone:account=115768761644:domainName=stage.youscience.com:privateZone=false:region=us-east-1": {
+    "Id": "/hostedzone/Z02851742GT3WSZACFA3G",
+    "Name": "stage.youscience.com."
+  },
+  "ssm:account=115768761644:parameterName=/apps/admin-ui/env/stage:region=us-east-1": "stage",
+  "ssm:account=115768761644:parameterName=/apps/shared/source/connectionArn:region=us-east-1": "arn:aws:codestar-connections:us-east-1:115768761644:connection/ff01712d-6aa0-4e18-bf3b-52b1ade409a8",
+  "ssm:account=115768761644:parameterName=/apps/admin-ui/source/branchName:region=us-east-1": "stage",
+  "ssm:account=115768761644:parameterName=/apps/admin-ui/env/stagePrefix:region=us-east-1": "false",
+  "ssm:account=115768761644:parameterName=/apps/admin-ui/cloudfront/domainName:region=us-east-1": "admin.stage.youscience.com",
+  "ssm:account=115768761644:parameterName=/apps/admin-ui/route53/zoneId:region=us-east-1": "Z02851742GT3WSZACFA3G",
+  "ssm:account=115768761644:parameterName=/apps/admin-ui/route53/domainName:region=us-east-1": "stage.youscience.com",
+  "ssm:account=115768761644:parameterName=/apps/admin-ui/certificate/domainName:region=us-east-1": "admin.stage.youscience.com",
+  "ssm:account=115768761644:parameterName=/apps/admin-ui/pipeline/notification:region=us-east-1": "true",
+  "ssm:account=115768761644:parameterName=/apps/shared/notification/chatbot/slackArn:region=us-east-1": "arn:aws:chatbot::115768761644:chat-configuration/slack-channel/build-deploy-channel-config"
+}

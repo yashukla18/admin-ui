@@ -1,0 +1,18 @@
+node_modules
+build
+*.bak
+.DS_Store
+tracing_output_folder
+*.local
+
+# Editor directories and files
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode/launch.json
+#  we may need to remove this when we deploy pipelines. This is to prevent from breaking our build currently
+.package-lock.json

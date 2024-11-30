@@ -1,0 +1,19 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.format": "explicit"
+  },
+  "prettier.configPath": ".prettierrc",
+  "prettier.prettierPath": "./node_modules/prettier/index.cjs",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "json.schemas": [
+    {
+      "fileMatch": ["tsconfig.*.json"],
+      "url": "http://json.schemastore.org/tsconfig"
+    }
+  ],
+  "cSpell.words": ["brightpath", "GADOE", "svgr", "youscience"]
+}
